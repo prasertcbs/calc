@@ -15,9 +15,26 @@ def square(side):
     return side ** 2
 
 def triangle(b, h):
+    """[summary]
+
+    Args:
+        b ([type]): [description]
+        h ([type]): [description]
+
+    Returns:
+        [type]: [description]
+    """    
     return .5 * b * h
 
 def circle(r):
+    """[summary]
+
+    Args:
+        r ([type]): [description]
+
+    Returns:
+        [type]: [description]
+    """    
     return math.pi * r * r
 
 def ellipse(a, b):
