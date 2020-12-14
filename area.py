@@ -20,6 +20,17 @@ def triangle(b, h):
 def circle(r):
     return math.pi * r * r
 
+def ellipse(a, b):
+    """ellipse area
+
+    Args:
+        a ([type]): [description]
+        b ([type]): [description]
+
+    Returns:
+        [type]: [description]
+    """    
+    return math.pi * a * b
 
 if __name__ == "__main__":
     print(rectangle(5, 4))
