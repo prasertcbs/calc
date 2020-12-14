@@ -1,11 +1,16 @@
+import math
+
 def rectangle(w, h):
     return w * h
+
+def square(side):
+    return side ** 2
 
 def triangle(b, h):
     return .5 * b * h
 
 def circle(r):
-    return 22 / 7 * r * r
+    return math.pi * r * r
 
 
 if __name__ == "__main__":
