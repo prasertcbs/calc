@@ -1,4 +1,12 @@
 def c2f(c: float)->float:
+    """Celsius to Fahrenheit
+
+    Args:
+        c (float): degree in Celsius
+
+    Returns:
+        float: Fahrenheit
+    """    
     return c/5*9+32
 
 def f2c(f: float)->float:
