@@ -11,3 +11,6 @@ def cm2inch(cm):
         [type]: [description]
     """    
     return cm / 2.54
+
+def yard2foot(yard):
+    return yard * 3
