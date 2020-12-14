@@ -4,6 +4,14 @@ def rectangle(w, h):
     return w * h
 
 def square(side):
+    """calculate square area
+
+    Args:
+        side (float): side length
+
+    Returns:
+        float: area of square
+    """    
     return side ** 2
 
 def triangle(b, h):
