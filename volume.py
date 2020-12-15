@@ -11,7 +11,7 @@ def cubic(side):
     """    
     return side ** 3
 
-def cylinder(r, h):
+def cylinder(radius, height):
     """[summary]
 
     Args:
@@ -21,5 +21,5 @@ def cylinder(r, h):
     Returns:
         [type]: [description]
     """    
-    return math.pi * r * r * h
+    return math.pi * radius * radius * height
     
