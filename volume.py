@@ -21,5 +21,5 @@ def cylinder(radius, height):
     Returns:
         [type]: [description]
     """    
-    return math.pi * radius * radius * height
+    return math.pi * (radius ** 2) * height
     
